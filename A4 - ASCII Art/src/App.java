@@ -6,6 +6,14 @@ public class App {
         System.out.println("_____");
         System.out.println("||  ||");
         System.out.println("m    m");
+        System.out.println("");
+        System.out.println("^----^");
+        System.out.println("|0  0|");
+        System.out.println("\\ ww /____   _____");
+        System.out.println(" |        \\ /XXXX/");
+        System.out.println(" \\________|/XXXX/");
+        System.out.println("   |_|  |_|");
+        System.out.println("");
         System.out.println(" ____             _____  _______ _____ ");
         System.out.println("/    \\   |    |  /          |      |   |\\   |");
         System.out.println("|____|   |    |  \\_____     |      |   | \\  |");
@@ -16,3 +24,10 @@ public class App {
     }
 }
 
+
+
+
+
+
+
+   
