@@ -6,6 +6,6 @@ public class App {
     public static void main(String[] args) throws Exception {
         double totalmoney = 4.75;
         double chickencost = 0.75;
-        System.out.println("\n You can buy "+ (int)(totalmoney/chickencost) +" chicken wings with "+ totalmoney +"$. \n");
+        System.out.println("\n You can buy "+ (int)(totalmoney/chickencost) +" chicken wings with $"+ totalmoney +". \n");
     }
 }
