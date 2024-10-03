@@ -1,3 +1,7 @@
+//Classname
+//Austin Wang
+//October 2 2024
+//Methods for the ClassNameRunner to tell the user about my classes
 public class ClassName {
     public void computerscience() {
         System.out.println("\nMy Coumputer Science class is in period 1. My teacher is Mr. Fox. This class is really fun!");
