@@ -1,7 +1,10 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        int myNum = 2147483647;
-        System.out.println(myNum+1);
+        int aNum = 9;
+
+        double bNum = aNum;
+
+        System.out.println(bNum);
         
     }
 }

@@ -3,9 +3,9 @@ public class BigorSmallMethods {
     Scanner sc = new Scanner(System.in);
     public void compare() {
         System.out.print("Enter your first number: ");
-        int a = sc.nextInt();
+        double a = sc.nextDouble();
         System.out.print("Enter your second number: ");
-        int b = sc.nextInt();
+        double b = sc.nextDouble();
         if (a>b) {
             System.out.println("Yes, the first number is bigger. ");
         } 
