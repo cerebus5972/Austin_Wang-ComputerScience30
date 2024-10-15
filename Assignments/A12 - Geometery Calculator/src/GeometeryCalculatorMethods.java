@@ -1,6 +1,6 @@
 import java.lang.Math;
 
-public class GeometeryCalculatorRunner {
+public class GeometeryCalculatorMethods {
     public double rectangleperimeter, cubearea, circlearea;
 
     public void findrectangleperimeter(double length, double width) {
