@@ -6,20 +6,25 @@ public class LeapYearMethods {
     Scanner sc = new Scanner(System.in);
 
     public void getInput() {
-        System.out.print("What year is it? ");
+        System.out.print("\nWhat year is it? ");
         year = sc.nextInt();
     }
 
-    public void conditionals() {
+    public boolean conditionals() {
         if (year%400 == 0 ) {
-            System.out.println("It is a leap year. ");
+            return true;
         }
         else if (year%100 == 0) {
-            System.out.println("It is not a leap year. ");
+            return false;
         }
         else if (year%4 == 0) {
-            System.out.println("It is a leap year. ");
+            return true;
         }
-        else System.out.println("It is not a leap year. ");
+        else return false;
+    }
+
+    public void finish(boolean yesorno) {
+        if (yesorno) System.out.println(year + " is a leap year. \n");
+        else System.out.println(year + " is not a leap year.\n");
     }
 }
