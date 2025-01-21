@@ -1,19 +1,44 @@
 import java.util.Scanner;
+import java.util.ArrayList;
+
+
 public class ArrayFunhouseMethods {
     Scanner sc = new Scanner(System.in);
+    public int length, count;
+    int[] funhouse = null;
+    int[] nothrees = null;
 
-    public void getlist() {
-        System.out.print("Please input the first item in your list. If you have finished inputting numbers, please input \"done\". ");
-        String responsestr = sc.nextLine();
-        System.out.println(responsestr);
-        if (responsestr == "done"){
-            System.out.println("done");
-        }}}
- /*        if (responsestr != "done") {
-            int responseint = Integer.valueOf(responsestr);
-            System.out.println(responseint);
-        }
-        else System.out.println("done");
+    public void create_array() {
+        System.out.print("Please input the length of your array: ");
+        length = sc.nextInt();
+        funhouse = new int[length];
     }
+
+    public void input_numbers() {
+        for (int i=0; i<length; i++){
+            System.out.print("What number would you like to add to the array? ");
+            int num = sc.nextInt();
+            funhouse[i] = num;
+        }
+    }
+
+    public void countmultiples() {
+        ArrayList<Integer> nothrees = new ArrayList<Integer>();
+
+        for (int j=0; j<length; j++){
+            if (funhouse[j]%3==0) {
+                count++;
+            }
+            else {
+                nothrees.add(funhouse[j]);
+            }
+        }
+        System.out.println("\nThere are " + count + " multiples of three in your array. ");
+        System.out.println("Your array without any multiples of three is " + nothrees);
+        System.out.println("There are now no threes in your array. ");
+        
+    }
+
+
+
 }
-*/
